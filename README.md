@@ -4,7 +4,7 @@
 - Example Usage: Can save a lot of time retyping entities in angular app if you already have a view model or dto written in c#
 
 # To use
-- open the html file using your favorite browser (must support the file reader api(
+- open the html file using your favorite browser (must support the file reader api)
 - Select a .cs file you want 
 - Click read file
 - Choose whether or not you want to include types
