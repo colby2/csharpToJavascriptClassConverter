@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>C# Object Converter</title>
+    <style>
+        .readBtn{
+            background-color: azure;
+            color: cadetblue;
+            border-radius: 10px;
+            border-width: 1px;
+        }
+        .convertBtn{
+            background-color: azure;
+            color: darkseagreen;
+            border-radius: 10px;
+            border-width: 1px;
+        }
+        .checkLabel{
+            cursor: pointer;
+        }
+        button{
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Convert C# Class To JS/TS Class</h2>
+    </div>
+    <div>
+        <input type="file" id="fileInput">
+        <button id="readFileBtn" class="readBtn">Read File</button>
+        <button id="convertBtn" class="convertBtn">Convert</button>
+        <label class="checkLabel">
+            <input type="checkbox" id="includeTypes" checked>Include Types?
+        </label>
+        <br>
+        <hr>
+        <br>
+        <div id="resultDisplay"></div>
+    </div>
+</body>
+<script src="./classConverter.js" type="text/javascript"></script>
+</html>
